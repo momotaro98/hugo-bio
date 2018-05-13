@@ -1,4 +1,65 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Shintaro Ikeda"
 theme = "resume"
+
+[params]
+    firstName = "Shintaro"
+    lastName = "Ikeda"
+    address = "Japan Tokyo"
+    phone = "+81 90-5513-1692"
+    # contactNote = "Dev Tools Engineer" #used in QR code only
+    profileImage = "img/me.jpg"
+    email = "ikenshirogivenup98@gmail.com"
+    description = "Software Engineer with experience leveraging agile, DevOps, and CI/CD."
+    favicon = "favicon.ico" # TODO somehow it doesn't work
+
+    # what sections to display.  Setting to false disables navigation and section.
+    showSkills = true
+    showProjects = true
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+		showQr = false
+
+    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
+    # gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
+
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/shintaro-ikeda-8382b2118/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/momotaro98/"
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/jhtarosan"
+
+[[params.handles]]
+    name = "Facebook"
+    link = "https://www.facebook.com/shintaro.ikeda2"
+
+# [[params.handles]]
+#     name = "Bitbucket"
+#     link = "https://bitbucket.org/eddiewebb/"
+
+# [[params.handles]]
+#     name = "Stack Overflow"
+#     link = "https://stackoverflow.com/users/story/82880"
+#     icon = "stack-overflow" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
+
+# [[params.handles]]
+#     name = "Keybase"
+#     link = "https://keybase.io/edwardawebb"
+#     icon = "key" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
+
+# [params.google.analytics]
+#     trackerID = "XX-123446-01"
+
+# [outputs] #only required for search
+#     home = ["HTML", "JSON"]
