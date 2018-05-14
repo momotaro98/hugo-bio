@@ -17,7 +17,7 @@ theme = "resume"
     # what sections to display.  Setting to false disables navigation and section.
     showSkills = true
     showProjects = true
-    showOpenSource = false
+    showOpenSource = true
     showPublications = false
     showExperience = true
     showEducation = true
