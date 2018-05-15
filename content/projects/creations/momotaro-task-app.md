@@ -4,7 +4,7 @@
   "image": "https://raw.githubusercontent.com/momotaro98/my-project-images/master/TaskApp/taskapp-01.gif",
   "link": "https://github.com/momotaro98/momotaro-task-management",
   "description": "momotaro-task-app is a feature-rich task management tool",
-  "tags": ["Python", "Flask", "PostgreSQL", "JavaScript"],
+  "tags": ["Python", "Flask", "PostgreSQL", "javascript"],
   "fact": "",
   "featured":true
 }

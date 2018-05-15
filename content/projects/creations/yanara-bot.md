@@ -4,7 +4,7 @@
   "image": "https://raw.githubusercontent.com/momotaro98/my-project-images/master/yarana-bot/yanara-bot-v1.2.gif",
   "link": "https://github.com/momotaro98/yarana-bot",
   "description": "yarana-bot is bot application in LINE to help you to do regularly",
-  "tags": ["Golang", "CSharp", "Azure-Functions", "Rest APIs", "bot"],
+  "tags": ["Go", "CSharp", "Azure-Functions", "Rest APIs", "bot"],
   "fact": "",
   "featured":true
 }

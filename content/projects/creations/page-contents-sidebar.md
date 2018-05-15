@@ -4,7 +4,7 @@
   "image": "https://raw.githubusercontent.com/momotaro98/my-project-images/master/page-contents-sidebar/demo.gif",
   "link": "https://github.com/momotaro98/page-contents-sidebar",
   "description": "Page Contents Sidebar is Google Chrome extension for Markdown on Gist",
-  "tags": ["JavaScript", "chrome-extension"],
+  "tags": ["javascript", "chrome-extension"],
   "fact": "",
   "featured":true
 }
