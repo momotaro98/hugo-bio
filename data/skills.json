@@ -1,0 +1,25 @@
+[
+    {
+        "grouping":"Architecture",
+        "skills":[ "Microservices","RESTful APIs","FaaS/PaaS/IaaS"]
+    },
+    {
+        "grouping":"Languages, Operating Systems & Tools",
+        "skills":[ "CSharp","Go","Python","javascript","git","linux"]
+    },
+    {
+        "grouping":"DevOps Tools",
+        "skills":[ "VS Team Service","Splunk","TeamCity","Octopus Deploy","Ansible"]
+    },
+    {
+        "grouping":"Platform Development & Administration",
+        "skills":[ "Atlassian","Bitbucket","NGINX","postgresql","SQLServer","IIS","ASP.NET MVC"]
+    },
+    {
+      "grouping":"Containers & Cloud",
+        "skills":[
+            {"name":"Docker","link":"https://docker.com"},
+            {"name":"Azure","link":"https://azure.microsoft.com"}
+        ]
+    }
+]
