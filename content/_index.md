@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-<p>Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD.</p>
+<p>Software Engineer with experience of web development, architecture design, agile, and DevOps.</p>
