@@ -11,7 +11,7 @@ theme = "resume"
     # contactNote = "Dev Tools Engineer" #used in QR code only
     profileImage = "img/me.jpg"
     email = "ikenshirogivenup98@gmail.com"
-    description = "Software Engineer with experience leveraging agile, DevOps, and CI/CD."
+    description = "Software Engineer with experience of web development, architecture design, agile, and DevOps."
     favicon = "favicon.ico" # TODO somehow it doesn't work
 
     # what sections to display.  Setting to false disables navigation and section.
