@@ -1,6 +1,7 @@
 [submodule "themes/resume"]
 	path = themes/resume
-	url = https://github.com/eddiewebb/hugo-resume.git
+	url = git@github.com:momotaro98/hugo-resume.git
+	branch =  master
 [submodule "public"]
 	path = public
 	url = git@github.com:momotaro98/momotaro98.github.io.git
