@@ -16,3 +16,18 @@ Following command builds the contents and deploys the publishment to [https://gi
 $ cd hugo-bio
 $ ./deploy.sh
 ```
+
+## How to modify themes as a submodule
+
+Update and push to the master of [this forked repository](https://github.com/momotaro98/hugo-resume).
+
+After that, update the commit of the theme repository.
+
+```
+$ cd hugo-bio
+$ cd themes/resume
+$ git pull origin master
+$ cd ../..
+$ git add .
+$ git commit
+```
