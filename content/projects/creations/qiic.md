@@ -2,13 +2,13 @@
   "title": "qiic",
   "date": "2017-02-10T12:41:05-05:00",
   "image": "https://raw.githubusercontent.com/momotaro98/my-project-images/master/qiic/demo.gif",
-  "description": "qiic is command line tool for Qiita service data using their v1 API.",
+  "description": "qiic is an unofficial CLI Tool of Qiita service",
   "tags": ["Go", "cli-app"],
   "fact": "",
   "featured":true
 }
 
-<p>qiic is command line tool for Qiita service data using their v1 API.</p>
+<p>qiic is an unofficial CLI Tool of Qiita service.</p>
 <h3>Features</h3>
 <ul>
     <li>get your 20 Stocked Qiita articles</li>

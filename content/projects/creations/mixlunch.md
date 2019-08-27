@@ -1,14 +1,14 @@
 {
-  "title": "MixLunch",
+  "title": "Mixlunch",
   "date": "2019-05-01T12:41:05-05:00",
   "image": "https://raw.githubusercontent.com/momotaro98/my-project-images/master/MixLunch/MixLunch_Head_01.png",
   "link": "https://www.mixlunch.com/",
-  "description": "MixLunch is a lunch platform which helps people connect with each other.",
+  "description": "Mixlunch is a lunch platform which helps people connect with each other.",
   "tags": ["Go", "Vue.js", "Node.js", "Python", "Optimization", "micro service", "Firebase", "MySQL", "gRPC"],
   "fact": "",
   "featured":true
 }
-<p>MixLunch is a lunch platform which helps people connect with each other.</p>
+<p>Mixlunch is a lunch platform which helps people connect with each other.</p>
 
 <p><a href="https://www.mixlunch.com/">https://www.mixlunch.com/</a></p>
 
