@@ -14,6 +14,12 @@ echo 'Start deploying onto hosting service'
 
 cd public
 
+# Check if there's change in the generated artifact
+if [! $(git status --porcelain)]; then
+  echo 'No change in artifact then end the process'
+  exit 0
+fi
+
 git remote set-url origin https://$user_name:${DEPLOY_TOKEN}@github.com/$user_name/$user_name.github.io.git
 
 git checkout master
