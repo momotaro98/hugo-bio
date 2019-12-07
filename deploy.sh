@@ -21,7 +21,6 @@ if [[ ! `git status --porcelain` ]]; then
 fi
 
 git remote set-url origin https://$user_name:${DEPLOY_TOKEN}@github.com/$user_name/$user_name.github.io.git
-
 git checkout master
 git add .
 
@@ -38,6 +37,7 @@ echo 'Deploy done'
 echo 'Start doing git commit to master itself'
 
 cd ..
+git remote set-url origin https://$user_name:${GITHUB_TOKEN}@github.com/$user_name/hugo-bio.git
 git checkout master
 git add public
 git commit -m "Deploy public `date`"
