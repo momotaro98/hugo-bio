@@ -28,3 +28,11 @@ git commit -m "$msg"
 
 # Push
 git push origin HEAD
+
+
+# Back from public
+cd ..
+git checkout -b master
+git add public
+git commit -m "Deploy public `date`"
+git push origin HEAD
