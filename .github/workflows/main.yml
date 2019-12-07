@@ -31,6 +31,7 @@ jobs:
 
       - name: Deploy the artifact onto hosting service
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
         run: ./deploy.sh
