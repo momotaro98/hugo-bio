@@ -10,7 +10,7 @@ $ docker-compose up
 
 ## Deployment
 
-`git push origin master` build and deploys the artifact to [https://github.com/momotaro98/momotaro98.github.io](https://github.com/momotaro98/momotaro98.github.io) with GitHub Action.
+`git push origin master` builds and deploys the artifact onto [https://github.com/momotaro98/momotaro98.github.io](https://github.com/momotaro98/momotaro98.github.io) in GitHub Action workflow.
 
 ## How to modify themes as a submodule
 
