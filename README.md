@@ -2,20 +2,15 @@
 
 My resume site builder using [Hugo](https://gohugo.io)
 
-## Update the contents and check them by running Hugo server
+## Update the contents then check them by running Hugo server in Docker container
 
 ```
-$ hugo server
+$ docker-compose up
 ```
 
-## Build and deploy the publishment
+## Deployment
 
-Following command builds the contents and deploys the publishment to [https://github.com/momotaro98/momotaro98.github.io](https://github.com/momotaro98/momotaro98.github.io).
-
-```
-$ cd hugo-bio
-$ ./deploy.sh
-```
+`git push origin master` build and deploys the artifact to [https://github.com/momotaro98/momotaro98.github.io](https://github.com/momotaro98/momotaro98.github.io) with GitHub Action.
 
 ## How to modify themes as a submodule
 
