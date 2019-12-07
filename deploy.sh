@@ -6,33 +6,35 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 user_name="momotaro98"
 
-echo 'Go To Public folder'
-cd public
-
 echo 'Set Git configurations'
-git config --local user.name $user_name
-git config --local user.email ${EMAIL_ADDRESS}
+git config --global user.name $user_name
+git config --global user.email ${EMAIL_ADDRESS}
+
+echo 'Start deploying onto hosting service'
+
+cd public
 
 git remote set-url origin https://$user_name:${DEPLOY_TOKEN}@github.com/$user_name/$user_name.github.io.git
 
-echo 'Add changes to git.'
 git checkout master
 git add .
 
-echo 'Commit changes'
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
 
-echo 'Push'
 git push origin HEAD
 
+echo 'Deploy done'
 
-echo 'Back from public'
+echo 'Start doing git commit to master itself'
+
 cd ..
 git checkout master
 git add public
 git commit -m "Deploy public `date`"
 git push origin HEAD
+
+echo 'Git commit done'
