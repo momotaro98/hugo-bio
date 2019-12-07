@@ -8,6 +8,9 @@ user_name="momotaro98"
 
 ls -la
 git submodule status
+cd themes/resume
+ls -la
+cd ../..
 
 echo 'Go To Public folder'
 cd public
