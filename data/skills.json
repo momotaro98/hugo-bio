@@ -1,7 +1,7 @@
 [
     {
         "grouping":"Architecture",
-        "skills":[ "Agile","Microservices", "Clean Architecture", "RESTful APIs","FaaS/PaaS/IaaS"]
+        "skills":[ "Microservices", "Clean Architecture", "RESTful APIs", "gRPC", "FaaS/PaaS/IaaS"]
     },
     {
         "grouping":"Languages, Operating Systems & Tools",
@@ -9,14 +9,18 @@
     },
     {
         "grouping":"DevOps Tools",
-        "skills":[ "CircleCI","TeamCity","Octopus Deploy","Ansible"]
+        "skills":[ "GitLab CI", "GitHub Actions", "CircleCI","TeamCity","Octopus Deploy","Ansible"]
     },
     {
-        "grouping":"Platform Development & Administration",
-        "skills":[ "Atlassian","Nginx","MySQL","SQLServer","Redis","gRPC"]
+        "grouping":"Platform Development & Middlewares",
+        "skills":[ "MySQL", "Elasticsearch", "Nginx","MySQL","SQLServer","Redis"]
     },
     {
         "grouping":"Containers & Cloud",
-        "skills":["Docker","GCP","Firebase","Azure"]
+        "skills":["Docker", "AWS", "Azure", "Firebase"]
+    },
+    {
+        "grouping":"Communication",
+        "skills":["Agile Development", "Scrum framework"]
     }
 ]
