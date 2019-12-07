@@ -1,8 +1,14 @@
 [
     {
         "role":"Developer",
+        "company":"RareJob Inc.",
+        "summary":"Development and operation of common service platform. Experienced Golang, AWS, Elasticsearch.",
+        "range":"Nov 2019 - now"
+    },
+    {
+        "role":"Developer",
         "company":"Rakuten Inc.",
         "summary":"Development and operation of Order Management System in logistics department. Experienced .NET Framework and Microsoft platforms(IIS, SQLServer, Azure) and developed with Clean Architecture and some design patterns. I was a team leader of a small team (5-7 members) as scrum master and product owner role.",
-        "range":"April 2017 - October 2019"
+        "range":"Apr 2017 - Oct 2019"
     }
 ]
