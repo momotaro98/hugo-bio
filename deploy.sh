@@ -15,8 +15,8 @@ echo 'Start deploying onto hosting service'
 cd public
 
 # Check if there's change in the generated artifact
-if [! $(git status --porcelain)]; then
-  echo 'No change in artifact then end the process'
+if [[ ! `git status --porcelain` ]]; then
+  echo 'No change in artifact then finishing this deploying workflow'
   exit 0
 fi
 
